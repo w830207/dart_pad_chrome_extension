@@ -44,10 +44,11 @@ packages:
   dart_pad_widget:
     dependency: "direct main"
     description:
-      name: dart_pad_widget
-      sha256: "1111a3b6f0e377322011afac6a1b3b80e2f7fa91b0116349803850edcc5c3d99"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "74fd0a335f993ff1b4151f3023f12b38a65144c0"
+      url: "https://github.com/w830207/dart_pad_widget.git"
+    source: git
     version: "2.1.0"
   fake_async:
     dependency: transitive

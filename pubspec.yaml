@@ -10,7 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dart_pad_widget: ^2.1.0
+  dart_pad_widget:
+    git:
+      url: https://github.com/w830207/dart_pad_widget.git
 
 dev_dependencies:
   flutter_test:

@@ -23,6 +23,8 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return DartPad(
       key: const Key('example1'),
+      width: 720,
+      height: 540,
       code: r"""void main() {
   for (int i = 0; i < 5; i++) {
     print('hello ${i + 1}');
