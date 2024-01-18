@@ -1,17 +1,16 @@
 {
     "name": "dart pad",
     "description": "dart pad iframe",
-    "version": "0.0.0.1",
+    "version": "0.0.0.2",
     "content_security_policy": {
         "extension_pages": "script-src 'self' ; object-src 'self'"
     },
     "action": {
         "default_popup": "index.html",
-        "default_icon": "icons/dart-192.png"
+        "default_icon": "icons/dp-192.png"
     },
     "icons": {
-        "16": "favicon.ico",
-        "192": "icons/dart-192.png"
+        "192": "icons/dp-192.png"
     },
     "manifest_version": 3
 }
